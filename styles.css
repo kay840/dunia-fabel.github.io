@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif; /* Menggunakan font bergaya klasik */
+    margin: 0; /* Menghapus margin default */
+    padding: 0; /* Menghapus padding default */
+    background-color: #f8f1e4; /* Memberikan warna latar belakang krem lembut */
+    color: #4b3f2f; /* Warna teks coklat alami */
+}
+
+/* Header Styles */
+header {
+    text-align: center; /* Mengatur teks agar berada di tengah */
+    background: linear-gradient(90deg, #d4a373, #e8c8a7); /* Gradien horizontal coklat ke krem */
+    color: #fff; /* Warna teks putih */
+    padding: 1.5rem 0; /* Menambah ruang atas dan bawah */
+    font-size: 2.5rem; /* Ukuran teks besar untuk judul */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus di bawah header */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+}
+
+/* Main Container */
+main {
+    position: relative; /* Untuk elemen absolut di dalamnya */
+    overflow: hidden; /* Menyembunyikan elemen yang keluar dari kontainer */
+    margin: 2rem auto; /* Memberikan jarak atas dan bawah, serta pusatkan */
+    max-width: 90%; /* Lebar maksimum halaman */
+    border: 5px solid #d4a373; /* Border coklat tua */
+    border-radius: 15px; /* Sudut melengkung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek 3D */
+}
+
+/* Slider Container */
+.slider {
+    width: 100%; /* Lebar penuh */
+    overflow: hidden; /* Menyembunyikan slide di luar kontainer */
+}
+
+/* Slide Wrapper */
+.slides {
+    display: flex; /* Membuat slide tersusun secara horizontal */
+    transition: transform 0.5s ease-in-out; /* Animasi transisi slide */
+}
+
+/* Slide Styles */
+.slide {
+    min-width: 100%; /* Setiap slide menempati 100% lebar slider */
+    box-sizing: border-box; /* Memasukkan padding dan border ke dalam ukuran */
+    text-align: center; /* Teks di tengah */
+    background-color: #fff7ed; /* Latar belakang krem terang */
+    padding: 1rem 0; /* Ruang atas dan bawah */
+}
+
+/* Video Styles */
+video {
+    width: 80%; /* Lebar video 80% dari slide */
+    margin: 1rem auto; /* Pusatkan video */
+    display: block; /* Video sebagai elemen blok */
+    border: 4px solid #d4a373; /* Border coklat */
+    border-radius: 12px; /* Sudut melengkung */
+}
+
+/* Caption Styles */
+.caption {
+    font-size: 1.2rem; /* Ukuran font sedang */
+    margin-top: 1rem; /* Jarak atas caption */
+    color: #c27c40; /* Warna coklat-oranye hangat */
+    font-style: italic; /* Gaya font miring */
+}
+
+/* Button Styles */
+button {
+    position: absolute; /* Posisi relatif terhadap kontainer utama */
+    top: 50%; /* Vertikal di tengah */
+    transform: translateY(-50%); /* Sesuaikan posisi tengah */
+    background-color: rgba(194, 124, 64, 0.8); /* Warna coklat dengan transparansi */
+    color: white; /* Warna teks putih */
+    border: none; /* Tanpa border */
+    font-size: 2rem; /* Ukuran font besar */
+    padding: 0.5rem 1rem; /* Padding tombol */
+    cursor: pointer; /* Menampilkan kursor pointer */
+    border-radius: 50%; /* Membuat tombol berbentuk lingkaran */
+    z-index: 1000; /* Prioritas elemen tertinggi */
+}
+
+/* Button Hover Styles */
+button:hover {
+    background-color: rgba(194, 124, 64, 1); /* Warna lebih tegas saat dihover */
+}
+
+/* Previous Button */
+.prev {
+    left: 10px; /* Tombol di sisi kiri */
+}
+
+/* Next Button */
+.next {
+    right: 10px; /* Tombol di sisi kanan */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Teks di tengah */
+    background-color: #d4a373; /* Latar belakang coklat tua */
+    color: white; /* Warna teks putih */
+    padding: 1rem 0; /* Ruang atas dan bawah */
+    font-size: 1rem; /* Ukuran teks kecil */
+    margin-top: 2rem; /* Jarak atas footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus di atas footer */
+}
